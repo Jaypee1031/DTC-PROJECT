@@ -1,0 +1,23 @@
+# Ignore Composer dependencies
+/vendor/
+/dtcc/vendor/
+
+# Ignore local uploads
+/uploads/
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore zip and backup files
+*.zip
+*.bak
+
+# Ignore environment files
+.env
+
+# Ignore IDE/project files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
